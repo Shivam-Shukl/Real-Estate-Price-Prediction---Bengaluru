@@ -85,7 +85,7 @@ http://127.0.0.1:5001
 - Click "New Web Service" → Connect to this repo
 - Use:
    - Build Command: pip install -r requirements.txt
-   - Start Command: python app.py
+   - Start Command: python main.py
 
 #### Option B: Auto Deploy using render.yaml
 
@@ -95,10 +95,10 @@ http://127.0.0.1:5001
 # render.yaml
 services:
   - type: web
-    name: tech-question-bot
+    name: any according to your intrest
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
+    startCommand: python main.py
     envVars:
       - key: FLASK_ENV
         value: production
@@ -107,39 +107,36 @@ services:
 
 ---
 
-### 5. Webhook Integration
-- Go to Dialogflow Console
-- Enable Webhook Fulfillment
-- Use your Render-deployed HTTPS URL (e.g. https://your-app.onrender.com/)
-- Attach this webhook to your Get_Tech_Question intent
----
 
-### 6.Sample Commands (Telegram)
+
+### 6.Sample Prediction
 ```text
-/start
-get me a question
-A
-Yes
+Input:
+Location: Whitefield
+Area: 1200 sqft
+BHK: 3
+Bath: 2
+
+Predicted Price: ₹ 854000 Lakhs
 ```
 ---
-### 📁 Project Structure
 
-```bash
-house-price-predictor/
-├── main.py # Flask app
-├── Cleaned_data.csv # Input dataset for predictions
-├── RidgeModel.pkl # Trained ML model
-├── requirements.txt # Python dependencies
-└── templates/
-└── index.html # Frontend page
+## 📜 License
 
-```
+This project is open-source and free to use for educational purposes.
+
+---
+## 🙌 Acknowledgements
+
+- Scikit-learn
+- Render
+- Bootstrap
+
 ---
 ### 🧑‍💻 Author
 
 - #### Shivam Shukla
 - Feel free to connect with me on 💼 [LinkedIn](https://www.linkedin.com/in/shivam-shukla-a462b3223/) 
-
 
 ---
 
