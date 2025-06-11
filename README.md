@@ -92,7 +92,7 @@ http://127.0.0.1:5001
 - Make sure your repo includes the following:
 
 ```yaml
-# render.yaml
+
 services:
   - type: web
     name: any according to your intrest
@@ -106,9 +106,6 @@ services:
 ```
 
 ---
-
-
-
 ### 6.Sample Prediction
 ```text
 Input:
