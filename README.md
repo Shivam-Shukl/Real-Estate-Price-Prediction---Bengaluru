@@ -4,8 +4,21 @@ This is a simple machine learning web application that predicts house prices in 
 
 ---
 
-## Dateset on Kaggle 
-🔗 [bengaluru-house-price-data](https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data)  
+## Dateset on Kaggle and Notebook
+ - Dataset : 🔗 [bengaluru-house-price-data](https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data)  
+### House Price Prediction - ML Notebook
+
+**[This](https://github.com/Shivam-Shukl/Real-Estate-Price-Prediction---Bengaluru/blob/main/Predictor.ipynb) notebook includes the complete ML workflow:**
+
+- Data Loading – Import and explore raw housing data
+
+- Data Cleaning & Preprocessing – Handle missing values, outliers, and encode features
+
+- Model Building – Train a Ridge Regression model for price prediction
+
+- Model Evaluation – Check accuracy using R² score and RMSE
+
+The final model and cleaned dataset are used in the deployed Flask web app.
 
 ---
 
