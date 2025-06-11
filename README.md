@@ -23,7 +23,7 @@ The working website screenshot.
 ## 📺 Demo Video
 - Please click the below image to visit to video.
 <a href="https://youtu.be/8xjxoG3V8L8">
-  <img src="https://github.com/user-attachments/assets/c2749799-4867-4683-a7e1-e59bb4e0f205" width="800"/>
+  <img src="https://github.com/user-attachments/assets/c2749799-4867-4683-a7e1-e59bb4e0f205" width="1000"/>
 </a>
 
 ---
