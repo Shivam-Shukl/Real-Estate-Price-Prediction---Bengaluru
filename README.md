@@ -56,32 +56,28 @@ The working website screenshot.
    cd Real-Estate-Price-Prediction
 ```
 
----
 
-
-
-## 🚀 Setup & Deployment
-
-### 1 Clone the Repository
+2. **Create a virtual environment (optional but recommended)**
 ```bash
-git clone https://github.com/yourusername/Tech_questions_Bot.git
-cd Tech_questions_Bot
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
-### 2. Install dependencies
+3. **Install dependencies**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Create `main.py` with this code
+4. **Run the app**
 
 ```bash
-python app.py
+python main.py
 ```
+5. **Visit in browser**
 
----
-Visit: http://localhost:5000
-### 4. Deploy on Render
+```cpp
+http://127.0.0.1:5001
+```
 
 #### Option A: Manual Deploy
 
