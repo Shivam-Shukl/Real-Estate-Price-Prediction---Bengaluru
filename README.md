@@ -50,25 +50,15 @@ The working website screenshot.
 ## 🛠️ Setup Instructions (Local)
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/house-price-predictor.git
-   cd house-price-predictor
-
+   
+```bash
+   git clone https://github.com/Shivam-Shukl/Real-Estate-Price-Prediction---Bengaluru.git
+   cd Real-Estate-Price-Prediction
 ```
 
 ---
 
-## 🛠 Tech Stack
 
-| Component      | Technology       |
-|----------------|------------------|
-| Bot Platform   | Telegram (via Dialogflow integration) |
-| Backend        | Python + Flask   |
-| Webhook Server | Render           |
-| Data Source    | [Open Trivia DB](https://opentdb.com/api_config.php) |
-| Bot Logic      | Dialogflow CX/ES |
-
----
 
 ## 🚀 Setup & Deployment
 
