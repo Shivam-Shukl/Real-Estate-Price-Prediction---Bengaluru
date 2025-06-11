@@ -4,6 +4,11 @@ This is a simple machine learning web application that predicts house prices in 
 
 ---
 
+## Dateset on Kaggle 
+🔗 [bengaluru-house-price-data](https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data)  
+
+---
+
 ## 🚀 Demo
 
 🔗 [Live App on Render](https://house-price-predictor-jqhi.onrender.com)  
