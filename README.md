@@ -27,14 +27,39 @@ The working website screenshot.
 </a>
 
 ---
+```yaml
 
-## 🧠 Features
+---
 
-- Fetches tech-based MCQs (CS category) via [Open Trivia DB](https://opentdb.com/)
-- Randomized options (A/B/C/D format)
-- Understands answer choices (A/B/C/D) and tells if correct
-- Asks "Do you want the answer?" if the user gets it wrong
-- Deployable via [Render](https://render.com/) as a public webhook for Dialogflow
+## ⚙️ How It Works
+
+1. **User Input** – The user enters data like location, sqft, BHK, etc.
+2. **Model Prediction** – A trained Ridge Regression model processes the input.
+3. **Output** – The app displays the predicted price of the house.
+
+---
+
+## 📦 Tech Stack
+
+- **Frontend:** HTML, CSS (Bootstrap)
+- **Backend:** Python, Flask
+- **ML:** Scikit-learn (Ridge Regression)
+- **Deployment:** Render
+- **Others:** Pandas, NumPy
+
+---
+
+## 🛠️ Setup Instructions (Local)
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/house-price-predictor.git
+   cd house-price-predictor
+
+
+```
+
+
 
 ---
 
@@ -119,11 +144,13 @@ Yes
 ### 📁 Project Structure
 
 ```bash
-Tech_questions_Bot/
-├── app.py               # Main Flask app with webhook logic
-├── requirements.txt     # Dependencies
-├── render.yaml          # (Optional) Render deploy config
-└── Screenshot*.png      # Bot demo screenshot
+house-price-predictor/
+├── main.py # Flask app
+├── Cleaned_data.csv # Input dataset for predictions
+├── RidgeModel.pkl # Trained ML model
+├── requirements.txt # Python dependencies
+└── templates/
+└── index.html # Frontend page
 
 ```
 ---
