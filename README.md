@@ -27,9 +27,7 @@ The working website screenshot.
 </a>
 
 ---
-```yaml
 
----
 
 ## ⚙️ How It Works
 
@@ -56,10 +54,7 @@ The working website screenshot.
    git clone https://github.com/your-username/house-price-predictor.git
    cd house-price-predictor
 
-
 ```
-
-
 
 ---
 
