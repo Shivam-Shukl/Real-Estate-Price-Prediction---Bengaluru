@@ -5,7 +5,8 @@ This is a simple machine learning web application that predicts house prices in 
 ---
 
 ## Dateset on Kaggle and Notebook
- - Dataset : 🔗 [bengaluru-house-price-data](https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data)  
+ - Dataset : 🔗 [bengaluru-house-price-data](https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data)
+ - Kindly upvote at Kaggle notebook: [Link to Notebook.](https://www.kaggle.com/code/rokstarshivam/simple-preprocessing-bengaluru-houses?scriptVersionId=244979432) 
 ### House Price Prediction - ML Notebook
 
 **[This](https://github.com/Shivam-Shukl/Real-Estate-Price-Prediction---Bengaluru/blob/main/Predictor.ipynb) notebook includes the complete ML workflow:**
