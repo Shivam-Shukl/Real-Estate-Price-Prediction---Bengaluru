@@ -24,7 +24,8 @@ The final model and cleaned dataset are used in the deployed Flask web app.
 
 ## 🚀 Demo
 
-🔗 [Live App on Render](https://house-price-predictor-jqhi.onrender.com)  
+🔗 [Live App on Render](https://house-price-predictor-jqhi.onrender.com) 
+- ⚠️ Garbage output may occur with invalid inputs (e.g., 5 bathrooms in 2 BHK). Use realistic values.
 
 ---
 
